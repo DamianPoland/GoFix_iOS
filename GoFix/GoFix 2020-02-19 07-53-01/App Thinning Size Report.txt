@@ -1,0 +1,8 @@
+
+App Thinning Size Report for All Variants of GoFix
+
+Variant: GoFix-61A006E5-CB9F-4779-86C1-173CD9F6355D.ipa
+Supported variant descriptors: [device: iPad7,5, os-version: 13.0], [device: iPad5,2, os-version: 13.0], [device: iPhone8,1, os-version: 13.0], [device: iPad6,11, os-version: 13.0], [device: iPad5,4, os-version: 13.0], [device: iPad5,1, os-version: 13.0], [device: iPad7,12, os-version: 13.0], [device: iPhone8,4, os-version: 13.0], [device: iPad6,12, os-version: 13.0], [device: iPod9,1, os-version: 13.0], [device: iPad7,6, os-version: 13.0], [device: iPad7,11, os-version: 13.0], [device: iPad6,8, os-version: 13.0], [device: iPad6,7, os-version: 13.0], and [device: iPad5,3, os-version: 13.0]
+App + On Demand Resources size: 522 KB compressed, 1,5 MB uncompressed
+App size: 522 KB compressed, 1,5 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

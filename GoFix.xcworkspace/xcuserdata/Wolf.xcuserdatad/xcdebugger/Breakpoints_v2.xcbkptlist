@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9FB7461B-6594-4ED2-A5ED-D83FD6D9F63F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E3D9C30C-56FF-441B-B0BD-D00B0EAFAD28"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GoFix/ViewControllerAddWork.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "ViewControllerIndustries"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "E3D9C30C-56FF-441B-B0BD-D00B0EAFAD28 - a4dc3147a3459651"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoFix.ViewControllerAddWork.viewTable.getter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "GoFix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wolf/Desktop/Apps/GoFix/GoFix/ViewControllerAddWork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "E3D9C30C-56FF-441B-B0BD-D00B0EAFAD28 - 54aa2f305f1aaa5d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoFix.ViewControllerAddWork.viewTable.setter : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "GoFix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wolf/Desktop/Apps/GoFix/GoFix/ViewControllerAddWork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "188">
+               </Location>
+               <Location
+                  uuid = "E3D9C30C-56FF-441B-B0BD-D00B0EAFAD28 - 60790ca3fcd0ad52"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoFix.ViewControllerAddWork.viewTable.modify : Swift.Optional&lt;__C.UITableView&gt;"
+                  moduleName = "GoFix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wolf/Desktop/Apps/GoFix/GoFix/ViewControllerAddWork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "E3D9C30C-56FF-441B-B0BD-D00B0EAFAD28 - 81e218252a5ff61a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoFix.ViewControllerAddWork.viewTable.modify : Swift.Optional&lt;__C.UITableView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "GoFix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wolf/Desktop/Apps/GoFix/GoFix/ViewControllerAddWork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "E3D9C30C-56FF-441B-B0BD-D00B0EAFAD28 - 9829806528405bc0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoFix.ViewControllerAddWork.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; GoFix.ViewControllerAddWork"
+                  moduleName = "GoFix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wolf/Desktop/Apps/GoFix/GoFix/ViewControllerAddWork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "E3D9C30C-56FF-441B-B0BD-D00B0EAFAD28 - 31093179aa8451ee"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "GoFix.ViewControllerAddWork.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;GoFix.ViewControllerAddWork&gt;"
+                  moduleName = "GoFix"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Wolf/Desktop/Apps/GoFix/GoFix/ViewControllerAddWork.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "204">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

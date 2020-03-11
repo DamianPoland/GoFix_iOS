@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GoFix.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>A80F2D5AD46AAFD3367A972D27601707AAD92936</string>
+				<key>dateExpires</key>
+				<string>15/12/2020</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A80F2D5AD46AAFD3367A972D27601707AAD92936</string>
+						<key>dateExpires</key>
+						<string>15/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Alamofire.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>RHJ3A2L6K5</string>
+						<key>name</key>
+						<string>Damian Wilczynski</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>A80F2D5AD46AAFD3367A972D27601707AAD92936</string>
+						<key>dateExpires</key>
+						<string>15/12/2020</string>
+						<key>type</key>
+						<string>Apple Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>SwiftyJSON.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>RHJ3A2L6K5</string>
+						<key>name</key>
+						<string>Damian Wilczynski</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>RHJ3A2L6K5.com.wolfmobileapps.GoFix</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>RHJ3A2L6K5</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>RHJ3A2L6K5.com.wolfmobileapps.GoFix</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>GoFix.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>205d152e-0cdb-4168-b3d0-7cd5853bec50</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: *</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>RHJ3A2L6K5</string>
+				<key>name</key>
+				<string>Damian Wilczynski</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
