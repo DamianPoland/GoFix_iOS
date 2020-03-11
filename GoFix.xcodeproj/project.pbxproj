@@ -3,29 +3,102 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093E1DD70CBBB08B8CABB2CD /* Pods_GoFix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62D5210EDB59A03A8B6C8733 /* Pods_GoFix.framework */; };
+		791EED6E2412A34E00327F38 /* RegionsPolish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791EED6D2412A34E00327F38 /* RegionsPolish.swift */; };
+		7920133924052AFE00661515 /* Industries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920133824052AFE00661515 /* Industries.swift */; };
+		7920133B2405339E00661515 /* TableViewCellIndustries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920133A2405339E00661515 /* TableViewCellIndustries.swift */; };
+		7920133D24054A3A00661515 /* ViewControllerServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920133C24054A3A00661515 /* ViewControllerServices.swift */; };
+		7920133F24054E0600661515 /* TableViewCellServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920133E24054E0600661515 /* TableViewCellServices.swift */; };
+		79201341240551F100661515 /* ViewControllerUserOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79201340240551F100661515 /* ViewControllerUserOrder.swift */; };
 		7920A9EC23FC60D5007D41E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A9EB23FC60D5007D41E9 /* AppDelegate.swift */; };
 		7920A9EE23FC60D5007D41E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A9ED23FC60D5007D41E9 /* SceneDelegate.swift */; };
-		7920A9F023FC60D5007D41E9 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A9EF23FC60D5007D41E9 /* FirstViewController.swift */; };
-		7920A9F223FC60D5007D41E9 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A9F123FC60D5007D41E9 /* SecondViewController.swift */; };
+		7920A9F023FC60D5007D41E9 /* ViewControllerLoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A9EF23FC60D5007D41E9 /* ViewControllerLoginScreen.swift */; };
+		7920A9F223FC60D5007D41E9 /* ViewControllerIndustries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920A9F123FC60D5007D41E9 /* ViewControllerIndustries.swift */; };
 		7920A9F523FC60D5007D41E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7920A9F323FC60D5007D41E9 /* Main.storyboard */; };
 		7920A9F723FC60D7007D41E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7920A9F623FC60D7007D41E9 /* Assets.xcassets */; };
 		7920A9FA23FC60D7007D41E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7920A9F823FC60D7007D41E9 /* LaunchScreen.storyboard */; };
+		7920AA0523FC63BD007D41E9 /* ViewControllerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920AA0423FC63BD007D41E9 /* ViewControllerInfo.swift */; };
+		79214C8124163D3000533D14 /* ViewControllerUserRegisterToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79214C8024163D3000533D14 /* ViewControllerUserRegisterToken.swift */; };
+		79214C8324163D8D00533D14 /* ViewControllerCraftsmanRegisterToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79214C8224163D8D00533D14 /* ViewControllerCraftsmanRegisterToken.swift */; };
+		79214C852416C28300533D14 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 79214C842416C28300533D14 /* GoogleService-Info.plist */; };
+		7921E9242404288B0046F676 /* ViewControllerStartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7921E9232404288B0046F676 /* ViewControllerStartScreen.swift */; };
+		7921E92724044BBC0046F676 /* C.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7921E92624044BBC0046F676 /* C.swift */; };
+		7921E92B2404518A0046F676 /* ViewControllerUserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7921E92A2404518A0046F676 /* ViewControllerUserProfile.swift */; };
+		7921E92D240453010046F676 /* ViewControllerCraftsmanProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7921E92C240453010046F676 /* ViewControllerCraftsmanProfile.swift */; };
+		7921E92F240453490046F676 /* ViewControllerOffersButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7921E92E240453490046F676 /* ViewControllerOffersButtons.swift */; };
+		79233BF42418C54500899852 /* ViewControllerCraftsmanRegisterServicesToChose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79233BF32418C54500899852 /* ViewControllerCraftsmanRegisterServicesToChose.swift */; };
+		79235655240FF64D0088DF3A /* FetchDataSecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79235654240FF64D0088DF3A /* FetchDataSecond.swift */; };
+		79244C11240E8BAC0095B9B1 /* TableViewCellUserOrdersChoseCraftsmanOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79244C10240E8BAC0095B9B1 /* TableViewCellUserOrdersChoseCraftsmanOrder.swift */; };
+		79244C13240E8C330095B9B1 /* CraftsmanOfferToShow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79244C12240E8C330095B9B1 /* CraftsmanOfferToShow.swift */; };
+		7925F9D724126B130066615E /* ViewControllerOffersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7925F9D624126B130066615E /* ViewControllerOffersList.swift */; };
+		7925F9D92412707C0066615E /* CraftsmanOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7925F9D82412707C0066615E /* CraftsmanOrder.swift */; };
+		7925F9DB2412738A0066615E /* TableViewCellCraftsmanOffersList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7925F9DA2412738A0066615E /* TableViewCellCraftsmanOffersList.swift */; };
+		794848022418D15B0045B10B /* TableViewCellServicesToNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794848012418D15B0045B10B /* TableViewCellServicesToNotifications.swift */; };
+		79484826241916260045B10B /* UIButtonCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79484825241916260045B10B /* UIButtonCustom.swift */; };
+		794848282419334E0045B10B /* UITextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 794848272419334E0045B10B /* UITextFieldCustom.swift */; };
+		795CC273240D30A1003B9168 /* TableViewCellUserOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CC272240D30A1003B9168 /* TableViewCellUserOrders.swift */; };
+		795CC275240D3590003B9168 /* UserOrders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CC274240D3590003B9168 /* UserOrders.swift */; };
+		795CC277240D41FA003B9168 /* TableViewCellUserOrdersHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CC276240D41FA003B9168 /* TableViewCellUserOrdersHistory.swift */; };
+		795CC279240D4299003B9168 /* ViewControllerUserProfileHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CC278240D4299003B9168 /* ViewControllerUserProfileHistory.swift */; };
+		795CC27B240D4446003B9168 /* UserOrdersHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CC27A240D4445003B9168 /* UserOrdersHistory.swift */; };
+		795CC27D240D4F0A003B9168 /* ViewControllerUserProfileChoseCraftsmanOffer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795CC27C240D4F0A003B9168 /* ViewControllerUserProfileChoseCraftsmanOffer.swift */; };
+		79F3726924045CEF00084B70 /* ViewControllerUserRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3726824045CEF00084B70 /* ViewControllerUserRegister.swift */; };
+		79F3726B24045F9000084B70 /* ViewControllerCraftsmanRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3726A24045F9000084B70 /* ViewControllerCraftsmanRegister.swift */; };
+		79F3726D240465FA00084B70 /* FetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79F3726C240465FA00084B70 /* FetchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB454159B4E43BCEA0757C5 /* Pods-GoFix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFix.debug.xcconfig"; path = "Target Support Files/Pods-GoFix/Pods-GoFix.debug.xcconfig"; sourceTree = "<group>"; };
+		62D5210EDB59A03A8B6C8733 /* Pods_GoFix.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoFix.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		791EED6D2412A34E00327F38 /* RegionsPolish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegionsPolish.swift; sourceTree = "<group>"; };
+		7920133824052AFE00661515 /* Industries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Industries.swift; sourceTree = "<group>"; };
+		7920133A2405339E00661515 /* TableViewCellIndustries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellIndustries.swift; sourceTree = "<group>"; };
+		7920133C24054A3A00661515 /* ViewControllerServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerServices.swift; sourceTree = "<group>"; };
+		7920133E24054E0600661515 /* TableViewCellServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellServices.swift; sourceTree = "<group>"; };
+		79201340240551F100661515 /* ViewControllerUserOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUserOrder.swift; sourceTree = "<group>"; };
 		7920A9E823FC60D5007D41E9 /* GoFix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoFix.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7920A9EB23FC60D5007D41E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7920A9ED23FC60D5007D41E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7920A9EF23FC60D5007D41E9 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		7920A9F123FC60D5007D41E9 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7920A9EF23FC60D5007D41E9 /* ViewControllerLoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLoginScreen.swift; sourceTree = "<group>"; };
+		7920A9F123FC60D5007D41E9 /* ViewControllerIndustries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerIndustries.swift; sourceTree = "<group>"; };
 		7920A9F423FC60D5007D41E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7920A9F623FC60D7007D41E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7920A9F923FC60D7007D41E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7920A9FB23FC60D7007D41E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7920AA0423FC63BD007D41E9 /* ViewControllerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerInfo.swift; sourceTree = "<group>"; };
+		79214C8024163D3000533D14 /* ViewControllerUserRegisterToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUserRegisterToken.swift; sourceTree = "<group>"; };
+		79214C8224163D8D00533D14 /* ViewControllerCraftsmanRegisterToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCraftsmanRegisterToken.swift; sourceTree = "<group>"; };
+		79214C842416C28300533D14 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		79214C862416C7CE00533D14 /* GoFix.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GoFix.entitlements; sourceTree = "<group>"; };
+		7921E9232404288B0046F676 /* ViewControllerStartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStartScreen.swift; sourceTree = "<group>"; };
+		7921E92624044BBC0046F676 /* C.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = C.swift; sourceTree = "<group>"; };
+		7921E92A2404518A0046F676 /* ViewControllerUserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUserProfile.swift; sourceTree = "<group>"; };
+		7921E92C240453010046F676 /* ViewControllerCraftsmanProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCraftsmanProfile.swift; sourceTree = "<group>"; };
+		7921E92E240453490046F676 /* ViewControllerOffersButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOffersButtons.swift; sourceTree = "<group>"; };
+		79233BF32418C54500899852 /* ViewControllerCraftsmanRegisterServicesToChose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCraftsmanRegisterServicesToChose.swift; sourceTree = "<group>"; };
+		79235654240FF64D0088DF3A /* FetchDataSecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchDataSecond.swift; sourceTree = "<group>"; };
+		79244C10240E8BAC0095B9B1 /* TableViewCellUserOrdersChoseCraftsmanOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellUserOrdersChoseCraftsmanOrder.swift; sourceTree = "<group>"; };
+		79244C12240E8C330095B9B1 /* CraftsmanOfferToShow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftsmanOfferToShow.swift; sourceTree = "<group>"; };
+		7925F9D624126B130066615E /* ViewControllerOffersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerOffersList.swift; sourceTree = "<group>"; };
+		7925F9D82412707C0066615E /* CraftsmanOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CraftsmanOrder.swift; sourceTree = "<group>"; };
+		7925F9DA2412738A0066615E /* TableViewCellCraftsmanOffersList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellCraftsmanOffersList.swift; sourceTree = "<group>"; };
+		794848012418D15B0045B10B /* TableViewCellServicesToNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellServicesToNotifications.swift; sourceTree = "<group>"; };
+		79484825241916260045B10B /* UIButtonCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonCustom.swift; sourceTree = "<group>"; };
+		794848272419334E0045B10B /* UITextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextFieldCustom.swift; sourceTree = "<group>"; };
+		795CC272240D30A1003B9168 /* TableViewCellUserOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellUserOrders.swift; sourceTree = "<group>"; };
+		795CC274240D3590003B9168 /* UserOrders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrders.swift; sourceTree = "<group>"; };
+		795CC276240D41FA003B9168 /* TableViewCellUserOrdersHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellUserOrdersHistory.swift; sourceTree = "<group>"; };
+		795CC278240D4299003B9168 /* ViewControllerUserProfileHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUserProfileHistory.swift; sourceTree = "<group>"; };
+		795CC27A240D4445003B9168 /* UserOrdersHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserOrdersHistory.swift; sourceTree = "<group>"; };
+		795CC27C240D4F0A003B9168 /* ViewControllerUserProfileChoseCraftsmanOffer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUserProfileChoseCraftsmanOffer.swift; sourceTree = "<group>"; };
+		79F3726824045CEF00084B70 /* ViewControllerUserRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerUserRegister.swift; sourceTree = "<group>"; };
+		79F3726A24045F9000084B70 /* ViewControllerCraftsmanRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerCraftsmanRegister.swift; sourceTree = "<group>"; };
+		79F3726C240465FA00084B70 /* FetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchData.swift; sourceTree = "<group>"; };
+		F3F862382B5990036AF94D20 /* Pods-GoFix.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoFix.release.xcconfig"; path = "Target Support Files/Pods-GoFix/Pods-GoFix.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				093E1DD70CBBB08B8CABB2CD /* Pods_GoFix.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +118,8 @@
 			children = (
 				7920A9EA23FC60D5007D41E9 /* GoFix */,
 				7920A9E923FC60D5007D41E9 /* Products */,
+				7C67FBEC5309E6A9E459CC09 /* Pods */,
+				E8380F27AE47618997217E99 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +134,116 @@
 		7920A9EA23FC60D5007D41E9 /* GoFix */ = {
 			isa = PBXGroup;
 			children = (
+				79214C862416C7CE00533D14 /* GoFix.entitlements */,
+				7920AA0323FC612D007D41E9 /* Controller */,
+				7920AA0223FC6127007D41E9 /* View */,
+				7920AA0123FC611A007D41E9 /* Model */,
 				7920A9EB23FC60D5007D41E9 /* AppDelegate.swift */,
 				7920A9ED23FC60D5007D41E9 /* SceneDelegate.swift */,
-				7920A9EF23FC60D5007D41E9 /* FirstViewController.swift */,
-				7920A9F123FC60D5007D41E9 /* SecondViewController.swift */,
-				7920A9F323FC60D5007D41E9 /* Main.storyboard */,
 				7920A9F623FC60D7007D41E9 /* Assets.xcassets */,
 				7920A9F823FC60D7007D41E9 /* LaunchScreen.storyboard */,
+				79214C842416C28300533D14 /* GoogleService-Info.plist */,
 				7920A9FB23FC60D7007D41E9 /* Info.plist */,
 			);
 			path = GoFix;
+			sourceTree = "<group>";
+		};
+		7920AA0123FC611A007D41E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7921E92624044BBC0046F676 /* C.swift */,
+				79F3726C240465FA00084B70 /* FetchData.swift */,
+				79235654240FF64D0088DF3A /* FetchDataSecond.swift */,
+				7920133824052AFE00661515 /* Industries.swift */,
+				795CC274240D3590003B9168 /* UserOrders.swift */,
+				795CC27A240D4445003B9168 /* UserOrdersHistory.swift */,
+				79244C12240E8C330095B9B1 /* CraftsmanOfferToShow.swift */,
+				7925F9D82412707C0066615E /* CraftsmanOrder.swift */,
+				791EED6D2412A34E00327F38 /* RegionsPolish.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7920AA0223FC6127007D41E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7920A9F323FC60D5007D41E9 /* Main.storyboard */,
+				79484825241916260045B10B /* UIButtonCustom.swift */,
+				794848272419334E0045B10B /* UITextFieldCustom.swift */,
+				7920133A2405339E00661515 /* TableViewCellIndustries.swift */,
+				7920133E24054E0600661515 /* TableViewCellServices.swift */,
+				795CC272240D30A1003B9168 /* TableViewCellUserOrders.swift */,
+				795CC276240D41FA003B9168 /* TableViewCellUserOrdersHistory.swift */,
+				79244C10240E8BAC0095B9B1 /* TableViewCellUserOrdersChoseCraftsmanOrder.swift */,
+				7925F9DA2412738A0066615E /* TableViewCellCraftsmanOffersList.swift */,
+				794848012418D15B0045B10B /* TableViewCellServicesToNotifications.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7920AA0323FC612D007D41E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7920AA0423FC63BD007D41E9 /* ViewControllerInfo.swift */,
+				7921E92524044B240046F676 /* Start */,
+				7921E929240450DF0046F676 /* Craftsman */,
+				7921E928240450D40046F676 /* User */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7921E92524044B240046F676 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				7921E9232404288B0046F676 /* ViewControllerStartScreen.swift */,
+				7920A9EF23FC60D5007D41E9 /* ViewControllerLoginScreen.swift */,
+				79F3726824045CEF00084B70 /* ViewControllerUserRegister.swift */,
+				79214C8024163D3000533D14 /* ViewControllerUserRegisterToken.swift */,
+				79F3726A24045F9000084B70 /* ViewControllerCraftsmanRegister.swift */,
+				79233BF32418C54500899852 /* ViewControllerCraftsmanRegisterServicesToChose.swift */,
+				79214C8224163D8D00533D14 /* ViewControllerCraftsmanRegisterToken.swift */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		7921E928240450D40046F676 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				7921E92A2404518A0046F676 /* ViewControllerUserProfile.swift */,
+				795CC278240D4299003B9168 /* ViewControllerUserProfileHistory.swift */,
+				795CC27C240D4F0A003B9168 /* ViewControllerUserProfileChoseCraftsmanOffer.swift */,
+				7920A9F123FC60D5007D41E9 /* ViewControllerIndustries.swift */,
+				7920133C24054A3A00661515 /* ViewControllerServices.swift */,
+				79201340240551F100661515 /* ViewControllerUserOrder.swift */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		7921E929240450DF0046F676 /* Craftsman */ = {
+			isa = PBXGroup;
+			children = (
+				7921E92C240453010046F676 /* ViewControllerCraftsmanProfile.swift */,
+				7921E92E240453490046F676 /* ViewControllerOffersButtons.swift */,
+				7925F9D624126B130066615E /* ViewControllerOffersList.swift */,
+			);
+			name = Craftsman;
+			sourceTree = "<group>";
+		};
+		7C67FBEC5309E6A9E459CC09 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FB454159B4E43BCEA0757C5 /* Pods-GoFix.debug.xcconfig */,
+				F3F862382B5990036AF94D20 /* Pods-GoFix.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E8380F27AE47618997217E99 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62D5210EDB59A03A8B6C8733 /* Pods_GoFix.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7920A9FE23FC60D7007D41E9 /* Build configuration list for PBXNativeTarget "GoFix" */;
 			buildPhases = (
+				BCE64C5F28A5D35320B6644D /* [CP] Check Pods Manifest.lock */,
 				7920A9E423FC60D5007D41E9 /* Sources */,
 				7920A9E523FC60D5007D41E9 /* Frameworks */,
 				7920A9E623FC60D5007D41E9 /* Resources */,
+				B9038AB9B2E9C9D2C2C874CF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7920A9FA23FC60D7007D41E9 /* LaunchScreen.storyboard in Resources */,
+				79214C852416C28300533D14 /* GoogleService-Info.plist in Resources */,
 				7920A9F723FC60D7007D41E9 /* Assets.xcassets in Resources */,
 				7920A9F523FC60D5007D41E9 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +315,90 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B9038AB9B2E9C9D2C2C874CF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoFix/Pods-GoFix-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GoFix/Pods-GoFix-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GoFix/Pods-GoFix-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCE64C5F28A5D35320B6644D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GoFix-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7920A9E423FC60D5007D41E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7920A9F223FC60D5007D41E9 /* SecondViewController.swift in Sources */,
-				7920A9F023FC60D5007D41E9 /* FirstViewController.swift in Sources */,
+				79F3726924045CEF00084B70 /* ViewControllerUserRegister.swift in Sources */,
+				7921E92D240453010046F676 /* ViewControllerCraftsmanProfile.swift in Sources */,
+				7920A9F223FC60D5007D41E9 /* ViewControllerIndustries.swift in Sources */,
+				79F3726B24045F9000084B70 /* ViewControllerCraftsmanRegister.swift in Sources */,
+				79214C8124163D3000533D14 /* ViewControllerUserRegisterToken.swift in Sources */,
+				7920133B2405339E00661515 /* TableViewCellIndustries.swift in Sources */,
+				7925F9D724126B130066615E /* ViewControllerOffersList.swift in Sources */,
+				7925F9DB2412738A0066615E /* TableViewCellCraftsmanOffersList.swift in Sources */,
+				7921E92B2404518A0046F676 /* ViewControllerUserProfile.swift in Sources */,
+				791EED6E2412A34E00327F38 /* RegionsPolish.swift in Sources */,
+				795CC273240D30A1003B9168 /* TableViewCellUserOrders.swift in Sources */,
+				79244C11240E8BAC0095B9B1 /* TableViewCellUserOrdersChoseCraftsmanOrder.swift in Sources */,
+				7920133F24054E0600661515 /* TableViewCellServices.swift in Sources */,
+				7921E9242404288B0046F676 /* ViewControllerStartScreen.swift in Sources */,
+				79244C13240E8C330095B9B1 /* CraftsmanOfferToShow.swift in Sources */,
+				7920AA0523FC63BD007D41E9 /* ViewControllerInfo.swift in Sources */,
+				79214C8324163D8D00533D14 /* ViewControllerCraftsmanRegisterToken.swift in Sources */,
+				795CC27B240D4446003B9168 /* UserOrdersHistory.swift in Sources */,
+				795CC277240D41FA003B9168 /* TableViewCellUserOrdersHistory.swift in Sources */,
+				794848282419334E0045B10B /* UITextFieldCustom.swift in Sources */,
+				7920A9F023FC60D5007D41E9 /* ViewControllerLoginScreen.swift in Sources */,
 				7920A9EC23FC60D5007D41E9 /* AppDelegate.swift in Sources */,
+				7920133D24054A3A00661515 /* ViewControllerServices.swift in Sources */,
+				79235655240FF64D0088DF3A /* FetchDataSecond.swift in Sources */,
+				795CC27D240D4F0A003B9168 /* ViewControllerUserProfileChoseCraftsmanOffer.swift in Sources */,
+				794848022418D15B0045B10B /* TableViewCellServicesToNotifications.swift in Sources */,
+				795CC275240D3590003B9168 /* UserOrders.swift in Sources */,
+				795CC279240D4299003B9168 /* ViewControllerUserProfileHistory.swift in Sources */,
+				7921E92F240453490046F676 /* ViewControllerOffersButtons.swift in Sources */,
+				79F3726D240465FA00084B70 /* FetchData.swift in Sources */,
+				7925F9D92412707C0066615E /* CraftsmanOrder.swift in Sources */,
+				79233BF42418C54500899852 /* ViewControllerCraftsmanRegisterServicesToChose.swift in Sources */,
+				7921E92724044BBC0046F676 /* C.swift in Sources */,
+				79484826241916260045B10B /* UIButtonCustom.swift in Sources */,
 				7920A9EE23FC60D5007D41E9 /* SceneDelegate.swift in Sources */,
+				79201341240551F100661515 /* ViewControllerUserOrder.swift in Sources */,
+				7920133924052AFE00661515 /* Industries.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +540,10 @@
 		};
 		7920A9FF23FC60D7007D41E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FB454159B4E43BCEA0757C5 /* Pods-GoFix.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoFix/GoFix.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RHJ3A2L6K5;
 				INFOPLIST_FILE = GoFix/Info.plist;
@@ -295,6 +551,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wolfmobileapps.GoFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -304,8 +561,10 @@
 		};
 		7920AA0023FC60D7007D41E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3F862382B5990036AF94D20 /* Pods-GoFix.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GoFix/GoFix.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RHJ3A2L6K5;
 				INFOPLIST_FILE = GoFix/Info.plist;
@@ -313,6 +572,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wolfmobileapps.GoFix;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
